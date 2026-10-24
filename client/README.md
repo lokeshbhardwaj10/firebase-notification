@@ -1,16 +1,5 @@
-# React + Vite
+# FCM Dashboard Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The React + Vite dashboard is configured from `client/.env`. Start it with `npm run dev` from this directory. For Firebase setup, backend configuration, security notes, and end-to-end run instructions, see the [project README](../README.md).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Restart the Vite server after changing environment variables. The Web Push VAPID key and Firebase Web app settings are public client configuration; never put Firebase Admin credentials in this directory.
